@@ -1,0 +1,90 @@
+html, body, h1, h2, h3, p, ol, ul, li, a{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-size: 100%;
+    font: inherit;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #ffb700;
+    margin: 0 auto;
+    padding: 10px;
+    height: 20px;
+    font-size: 17px;
+}
+
+#nav {
+    margin: -7 0;
+}
+
+nav {
+    float: right;
+    margin-right: 30px;
+    font-size: 90%;
+}
+
+nav a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    font-size: 105%;
+}
+
+h1 {
+    float: left;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 90%;
+}
+.main-content {    
+    margin: 0 auto;
+    clear: both;
+}
+
+#boxContainer {
+    margin: 50px auto;
+    width: 1016px;
+}
+
+
+.box {
+    width: 200px;
+    padding: 20px;
+    float: left;
+    margin: 0 5px;   
+    border: 2px solid #ffb700;
+}
+ 
+h2 {
+    font-size: 125%;
+    font-weight: 110%;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 75%;
+    padding: 5px 10px;
+}
+
+#info {
+    text-align: center;
+    margin: 10px auto;
+    background-color: #ffb700;
+    padding: 5px 10px;
+    margin-bottom: 0;
+}
+
+.box a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 75%;
+}
