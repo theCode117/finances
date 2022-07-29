@@ -21,10 +21,13 @@ header {
 
 #nav {
     margin: -7 0;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 nav {
-    float: right;
+    align-self: flex-end;
     margin-right: 30px;
     font-size: 90%;
 }
@@ -40,7 +43,7 @@ nav a:hover {
 }
 
 h1 {
-    float: left;
+    align-self: flex-start;
     margin-left: 30px;
     color: #fff;
     font-size: 90%;
@@ -48,18 +51,20 @@ h1 {
 .main-content {    
     margin: 0 auto;
     clear: both;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
 }
 
 #boxContainer {
     margin: 50px auto;
-    width: 1016px;
+    width: 1016px; 
 }
 
 
 .box {
     width: 200px;
     padding: 20px;
-    float: left;
     margin: 0 5px;   
     border: 2px solid #ffb700;
 }
@@ -87,4 +92,5 @@ p {
     text-decoration: none;
     color: #fff;
     font-size: 75%;
+
 }
